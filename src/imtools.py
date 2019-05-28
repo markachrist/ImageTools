@@ -454,6 +454,7 @@ def fillRegions(image, size = 100, back_value = 0, fill_value = 1):
             out[r.coords[:, 0], r.coords[:, 1]] = fill_value
         
     return out
+    
 
 def alpha_blend(im1, im2, alpha):
     '''
